@@ -1,0 +1,437 @@
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar" id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<a href="https://www.ccis.northeastern.edu" target="_blank"><img id="logo" class="img-responsive" src="img/logo.png" /></a>
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+
+
+		<div class="school-section">
+
+			<h1>Schedule</h1>
+
+
+			<p></p>
+			<p>Note: This schedule is subject to change
+			and will be adjusted as needed throughout the
+			semester. Check back often.  This is a new
+			course and your input on material to cover will
+			be incorperated!
+		  </p> 
+
+		  	<div class="table-responsive">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+
+							<th>Date</th>
+
+							<th>Topic</th>
+							<th>
+							  Book Slides</th>
+							  		<th>
+				My Slides</th>
+						</tr>
+					</thead>
+
+					<tbody>
+
+					  <tr>
+					    	<td> January 19-22</td>
+<td>Course introduction<br>
+Overview of Database Management Systems<br>
+  The Relational Model/Relational Algebra<br>
+</td>
+<td>
+  <a href="download/ch1.pptx">Intro</a>, 
+  <a href="download/ch2.pptx">Relational Model</a>
+</td>
+<td>
+  <a href="download/4200.1.pptx">Course Intro</a>, 
+  <a href="download/4200.2.pptx">Relational Model</a>,
+    <a href="download/Setup-PostgreSQL.2020.pptx"> Setting Up Postgres</a>
+</td>
+
+</tr>
+<tr>
+  <td>January 26-29</td>
+<td>    SQL 
+</td>
+<td>
+  <a href="download/ch3.pptx">SQL1</a>, 
+  <a href="download/ch4.pptx">SQL2</a>, 
+  <a href="download/ch5.pptx">SQL3</a>
+</td>
+<td>
+<!--
+  Practice DB:  <a href="download/DDL.sql">DDL</a>, <a -->
+<!--href="download/smallRelationsInsertFile.sql">data</a>
+  <br>
+  <a href="download/4200.3.pdf">Advanced SQL</a>
+  -->
+  </td>
+</tr>
+<tr>
+  <td>3</td>
+  <td> Indexing<br>
+ 
+</td>
+<td>
+  <a href="download/ch14.pptx">Indexing</a> 
+</td>
+<td>
+  <a href="download/4200.4.Indexing.pdf">My Indexing Slides</a>, 
+    <a href="download/4200.4.HashIndex.pdf">Hash Indexing</a>
+</tr>
+<tr>
+  <td>4</td>
+  <td> Query Processing and Evaluation<br>
+    Foundations optimization 
+</td>
+<td>
+  <a href="download/ch15.pptx">QP</a>, 
+    <a href="download/ch15.pptx">QOpt</a> 
+</td>
+<td>
+  <a href="download/4200.5.QEval.pdf">Query Evaluation</a>, 
+  <a href="download/4200.5.QEval2.pdf">Query Evaluation (cont'd)</a>
+  </td>
+</tr>
+<tr>
+  <td>5</td>
+  <td> Query Optimization
+</td>
+<td>
+</td>
+<td>
+  <a href="download/4200.6.QOpt.Eq.pdf">Query Optimization</a>, 
+    <a href="download/4200.7.QOpt.PlanEnumeration.pdf">Plan
+  Enumeration</a>,
+  <a href="download/4200.7.Statistics.pdf">Cost Statistics</a>,
+  <a href="download/4200.7.AdvancedOptimization.pdf">Advanced Optimization</a>,
+</td>
+</tr>
+<tr>
+  <td>6</td>
+<td>  Data design how to keep data consistent<br>
+  Normalization and relationship to data science 
+</td>
+<td>
+  <a href="download/ch7.pptx">Design</a>
+</td>
+<td>
+  <a href="download/4200.8.design.pdf">Design</a>,
+  <a href="download/4200.9.design.pdf">More Design</a>,
+  <a href="download/BCNF.pdf">Big BCNF Decomposition example</a>
+</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>Midterm</td>
+  <td> <a href="download/midterm.practice.pdf">Practice Problems</a>, 
+    <a href="download/midterm.practice.sol.pdf">Practice Solutions</a>
+</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td> ACID, Transactions, Concurrency Control
+</td>
+<td>
+  <a href="download/ch17.pptx">Transactions</a>, 
+    <a href="download/ch18.pptx">CC</a> 
+</td>
+<td>
+  <a href="download/2020.Transactions.pdf">My slides Part 1</a>,
+  <a href="download/2020.Transactions.Part2.pdf">Part 2</a>,
+  </td>
+</tr>
+
+<tr>
+  <td>9</td>
+  <td> Recovery and Durability<br>
+    Fault-tolerance for data 
+</td>
+<td>
+  <a href="download/ch19.pptx">Recovery</a>
+</td>
+<td>
+  <a href="download/2020.Recovery.pdf">My slides</a>
+</tr>
+<tr>
+  <td>10</td>
+<td>  Complex Types<br>
+  Documents, OO, JSON, Knowledge Bases
+</td>
+<td>
+  <a href="download/ch8.pptx">Types</a>
+</td>
+<td>
+  <a href="download/2020.ComplexDataTypes.pdf">Types</a>
+  </td>
+</tr>
+<tr>
+  <td>11</td>
+<td> Big Data<br>
+</td>
+<td>
+  <a href="download/ch10.pptx">Big Data</a>
+</td>
+<td>
+  <a href="download/2020/BigData.pdf">Big Data</a>
+</td>
+</tr>
+<tr>
+  <td>12</td>
+<td> Parallel and Distributed Data Intensive Systems<br>
+</td>
+<td>
+  <a href="download/ch21.pptx">Parallel and Distributed Storage</a>
+</td>
+<td>
+  <a href="download/2020/Distribution.pdf">Parallel and Distributed Storage</a>
+</td>
+</tr>
+<tr>
+  <td>13</td>
+<td> Indexing for big data<br>
+</td>
+<td>
+
+</td>
+<td>
+  <a href="download/2020/BigDataIndexing.pdf">Indexing big data</a>
+</td>
+</tr>
+
+<tr>
+  <td>14</td>
+<td> Data Analytics<br>
+ Foundations of Data Science and Data Mining 
+</td>
+<td>
+  <a href="download/ch11.pptx">Data Analytics</a>
+</td>
+</tr>
+<tr>
+  <td></td>
+<td> Physical Storage Systems<br>
+ File Systems for Data 
+</td>
+<td>
+  <a href="download/ch12.pptx">Storage 1</a>,
+  <a href="download/ch13.pptx">Storage 2</a>
+</td>
+</tr>
+
+
+<tr>
+  <td></td>
+  <td> Advanced topics depending on class interest<br>
+Block Chain, Table embeddings, ... 
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+  <td>April 13</td>
+  <td> 
+</td>
+<td>
+
+</td>
+</tr>
+<tr>
+  <td>April 20</td>
+  <td> In class final 
+</td>
+<td>
+
+</td>
+</tr>
+
+
+		  
+<!--			<div class="table-responsive">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Date</th>
+							<th>Speaker</th>
+							<th>Topic</th>
+							<th>Homework</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+
+					<tbody>
+
+					  <tr>
+					    	<td>1</td>
+						<td>01/08</td>
+						<td>
+						  <a href="https://www.khoury.northeastern.edu/people/rose-yu/">Rose Yu</a>
+							  
+						</td>
+						<td>
+						  						  Deep 
+							Learning for 
+							Large-Scale 
+							Spatiotemporal 
+							Data </td>
+						  <td>
+<a
+							href="https://arxiv.org/pdf/1901.10946v3.pdf"> 
+							Paper</a>
+						    <br>
+						  <a
+						  href="download/1.Intro.Rose.pdf">Brief 
+						Course
+						    Introduction</a></td>
+						    
+							<td></td>
+							<td>
+						</tr>
+
+								
+
+</tbody>
+</table>
+</div>
+-->
+
+
+<!-- Just some space for prettiness :) -->
+<!--
+<div style="padding-bottom: 20px"></div>
+<div class="school-section"></div>
+	<h1>Resources</h1>
+	<p></p>
+
+	<ul>
+		<li><a
+		href="https://www.cs.cmu.edu/~mleone/how-to.html"
+	  target="_blank">Advice on Research in CS</a></li>
+							  <a
+							href="https://undergraduate.northeastern.edu/research/">Office 
+							of 
+							Undergraduate 
+							Research and 
+							  Fellowships</a>
+							lots of 
+							information on 
+							how to get 
+							paid to do research!</li>
+<li>							  <a href="https://www.khoury.northeastern.edu/people/benjamin-hescott/">Associate 
+							Dean of 
+							Students Ben 
+							Hescott</a> --
+							mentioned by 
+							panelists as a 
+							good resource 
+							for connecting 
+							students to 
+							research advisors</li>
+	</ul>
+-->
+	<!-- Just some space for prettiness :) -->
+<div style="padding-bottom: 20px"></div>
+<div class="school-section"></div>
+
+
+<div class="school-footer">
+	<footer>
+		<small><em>
+<!--			<script>
+			document.write("This page was last modified on: " + document.lastModified +"");
+			</script>
+  -->
+		</em></small>
+	</footer>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/settings.js"></script>
+<script>
+$(document).ready(function() {
+
+	// enable tooltips
+	$('[data-toggle="tooltip"]').tooltip();
+
+	// prepare the page based upon settings
+	settingsReady();
+
+});
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111996501-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+	dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'UA-111996501-1');
+</script>
+
+</body>
+
+</html>
